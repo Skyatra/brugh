@@ -1,0 +1,32 @@
+/**
+ * @name omori photo album theme
+ * @author DaBluLite
+ * @version 5.0.0
+ * @description Clean and Customizable, with custom background support
+ * @source https://dablulite.github.io/Cyan/Cyan.theme.css
+ * @invite ZfPH6SDkMW
+ * @website https://github.com/DaBluLite/Cyan
+ * @authorId 582170007505731594
+ * @BDEditor Cyan
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell:wght@100;300;400;500;700&display=swap');
+@import url('https://dablulite.github.io/Cyan/import.css');
+
+:root {
+  --cyan-background-img: url('https://external-preview.redd.it/Y5JZuFv83sE00TD7Jd5vXbKNXqVtlvp_zCy281rhDCs.jpg?auto=webp&s=d9c8c74be5732182ee06e5184965364cd9fed674');
+  --cyan-blur-radius: 2px;
+  --cyan-accent-color: #AFA179;
+  --cyan-background-hue: 221;
+  --cyan-elevation-shadow: 0 0 0 1.5px var(--cyan-accent-color), 0 2px 10px 0 rgb(0 0 0 / 60%);
+  --cyan-tint-visibility: 8%;
+  --cyan-text-shadow: 1;
+  --cyan-font: Schoolbell; /* Custom font | Default: 'Montserrat' */
+  --window-margin: 8;
+  --window-border-radius: 8px;
+  --cyan-background-primary: hsla(var(--cyan-background-hue) var(--cyan-tint-visibility) var(--cyan-background-lightness) / 40%);
+}
+
+/* Any custom CSS below here */
+
+
